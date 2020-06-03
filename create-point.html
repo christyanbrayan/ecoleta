@@ -27,20 +27,20 @@
 					<label for="name">
 						Nome da entidade
 					</label>
-					<input type="text" name="name">
+					<input type="text" name="name" required>
 				</div>
 				<div class="field-group">
 					<div class="field">
 						<label for="address">
 							Endereço
 						</label>
-						<input type="text" name="address">
+						<input type="text" name="address" required>
 					</div>
 					<div class="field">
 						<label for="address2">
 							Número/Complemento
 						</label>
-						<input type="text" name="address2">
+						<input type="text" name="address2" required>
 					</div>
 				</div>
 				<div class="field-group">
@@ -48,7 +48,7 @@
 						<label for="state">
 							Estado
 						</label>
-						<select name="uf" id="">
+						<select name="uf" id="" required>
 							<option value=""> Selecione o Estado </option>
 						</select>
 						<input type="hidden" name="state">
@@ -57,7 +57,7 @@
 						<label for="city">
 							Cidade
 						</label>
-						<select name="city" id="" disabled>
+						<select name="city" id="" disabled required>
 							<option value=""> Selecione a Cidade </option>
 						</select>
 					</div>
