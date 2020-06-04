@@ -1,4 +1,4 @@
-@media (max-width: 980px) {
+@media (max-width: 900px) {
 	#page-home {
 		background-position: 70vw;
 	}
@@ -14,8 +14,17 @@
 		left: 50%;
 		transform: translateX(-50%);
 	}
+	
 	#page-home main {
 		align-items: center;
+	}
+	
+	#page-search-results .cards {
+		grid-template-columns: 1fr;
+	}
+	
+	#page-search-results .cards img {
+		height: 250px;
 	}
 }
 
