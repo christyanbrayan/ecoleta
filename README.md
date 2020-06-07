@@ -7,6 +7,7 @@
   * **Com [API](https://servicodados.ibge.gov.br/api/docs/localidades) do IBGE**
 * **Node.js**
   * **Com express, nodemon e nunjucks**
+* **SQLite3**
 ### Instrutor: [Mayk Brito](https://github.com/maykbrito)
 ---
 ***</>*** **by [christyanbrayan](https://github.com/christyanbrayan)**
